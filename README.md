@@ -1,11 +1,12 @@
 # TODO-App-Frontend-1
- Todo app demo forntend. Link: ### https://kundanchourasiya.github.io/TODO-App-Frontend-1/index.html
+ Todo app demo forntend. 
 
  
 ![image](https://github.com/user-attachments/assets/fd07b563-eff1-4ebe-9ad8-a3a31fa29981)
 
  > [!NOTE]
 > ### This application developed for insert user task, user registration, user Login, view all tasks and add new task.
+> Link: https://kundanchourasiya.github.io/TODO-App-Frontend-1/index.html
 
 ![image](https://github.com/user-attachments/assets/bca3d68a-3689-4ee2-ab1c-437c3478146b)
 
