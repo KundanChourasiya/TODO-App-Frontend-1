@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+<!--Import materialize.css-->
+<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong&effect=fire|neon|emboss" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<!--Let browser know website is optimized for mobile-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- Compiled and minified Custom CSS and JavaScript -->
+<link rel="stylesheet" href="css\style.css" />
+
+<link rel="icon" type="image/x-icon" href="img\favicon.ico">
+
+<title>Add User Task</title>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-wrapper pink">
+            <a href="index.html" class="brand-logo">TO-DO Application Spring Boot <i class="material-icons">playlist_add</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html">Sign Up</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href=""><i class="material-icons icon4343">account_circle</i></a></li>
+                <li><a href="">Welcome: Kundan Kumar</a></li>
+                <li><a href="viewTask.html">View task</a></li>
+                <li><a class="waves-effect waves-light btn" href="#">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="row">
+        <div class="card top-box">
+            <div class="card-content white-text">
+                <span class="card-title font-effect-emboss">Welcome TO Our To-Do Application Project</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="form-content">
+        <div class="row">
+            <div class="col m3"></div>
+            <div class="col s12 m6">
+                <div class="card form-box">
+                    <div class="card-content">
+                        <span class="card-title"><i class="material-icons icon4343">directions_bike</i>Task Form</span>
+    
+                        <div class="chip">
+                            User Task added successfully !!!
+                            <i class="close material-icons">close</i>
+                        </div>
+                      
+                        <div class="row">
+                            <form action="#"  method="post" class="col s12">
+    
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <i class="material-icons prefix">playlist_add</i> 
+                                        <input id="name" type="text" name="name" /> 
+                                        <label for="name">Task Name</label>
+                                        <span class="errors">This is required field.</span>
+                                    </div>
+                                </div>
+    
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <i class="material-icons prefix">date_range</i> 
+                                        <input id="date" type="date" name="date"/> 
+                                        <label for="date">Task Date</label>
+                                    </div>
+                                </div>
+    
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <i class="material-icons prefix">access_time</i> 
+                                        <input id="time" type="time" name="time"/> 
+                                        <label for="time">Task Time</label>
+                                    </div>
+                                </div>
+    
+    
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <label> <input type="checkbox" name="checkbtn" /> <span>Check
+                                                me out</span>
+                                        </label>
+                                    </div>
+                                </div>
+    
+    
+                                <div class="row">
+                                    <div class="col s4"></div>
+                                    <div class="col s5">
+                                        <button class="btn waves-effect waves-light  buttons"
+                                            type="submit" name="action">
+                                            Add Task<i class="material-icons right">play_arrow</i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+	<!--JavaScript at end of body for optimized loading-->
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+
+</body>
+</html>
